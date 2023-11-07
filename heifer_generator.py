@@ -32,4 +32,4 @@ class HeiferGenerator:
 				HeiferGenerator.cows[index] = Cow(HeiferGenerator.cowNames[index])
 				HeiferGenerator.cows[index].image = HeiferGenerator.quoteLines + HeiferGenerator.cowImages[index]
 		
-		return HeiferGenerator.cows
+		return HeiferGenerator.cows # returns a list, inside this list is cow instances

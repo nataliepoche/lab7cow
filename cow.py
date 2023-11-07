@@ -1,16 +1,13 @@
-# This is a sample Python script.
+class Cow:
+    def __init__(self, name):
+        self.name = name # set self.name to be name
+        self.image = None # set self.image to be None
 
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
+    def get_name(self):
+        self.name = name # retrieve attribute self.name
 
+    def get_image(self):
+        self.image = image # retrieve attribute self.image
 
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
-
-
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
-
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+    def set_image(self, image):
+        self.image = image # set self.image to be image, how you can update the attribute
