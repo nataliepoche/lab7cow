@@ -4,10 +4,10 @@ class Cow:
         self.image = None # set self.image to be None
 
     def get_name(self):
-        self.name = name # retrieve attribute self.name
+        return self.name
 
     def get_image(self):
-        self.image = image # retrieve attribute self.image
+        return self.image # retrieve attribute self.image
 
     def set_image(self, image):
         self.image = image # set self.image to be image, how you can update the attribute
